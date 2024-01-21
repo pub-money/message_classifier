@@ -1,1 +1,1 @@
-docker build -t message_classifier .
+DOCKER_BUILDKIT=1 docker build -t message_classifier .
